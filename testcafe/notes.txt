@@ -1,0 +1,2 @@
+use Roles for authentication
+https://devexpress.github.io/testcafe/documentation/test-api/authentication/user-roles.html

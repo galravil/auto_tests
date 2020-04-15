@@ -1,0 +1,33 @@
+{
+    "browsers": "chrome",
+    "src": "./tests",
+    "screehshots": {
+        "path": "./screenshots",
+        "takeOnFails": true,
+        "fullPage": true,
+        "pathPattern": "test-${TEST_INDEX}/${FILE_INDEX}.png"
+    },
+
+    "videoPath": "./video",
+    "videoOptions": {
+        "singleFile": false,
+        "failedOnly": true,
+        "pathPattern": "${TEST_INDEX}/${FILE_INDEX}.mp4"
+    },
+
+    "concurrency": 1,
+
+    "selectorTimeout": 3000,
+    "assertionTimeout": 3000,
+    "pageLoadTimeout": 3000,
+
+    "speed": 1,
+
+    "stopOnFirstFail": true,
+    "disablePageCaching": false,
+
+    "color": true,
+
+    
+
+}
